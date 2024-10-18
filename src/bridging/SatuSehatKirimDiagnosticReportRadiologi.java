@@ -610,7 +610,7 @@ public final class SatuSehatKirimDiagnosticReportRadiologi extends javax.swing.J
                                         "{" +
                                             "\"system\": \"http://sys-ids.kemkes.go.id/diagnostic/"+koneksiDB.IDSATUSEHAT()+"/rad\"," +
                                             "\"use\": \"official\"," +
-                                            "\"value\": \""+tbObat.getValueAt(i,9).toString()+"\"" +
+                                            "\"value\": \""+tbObat.getValueAt(i,9).toString()+"."+tbObat.getValueAt(i,17).toString()+"\"" +
                                         "}" +
                                     "]," +
                                     "\"status\": \"final\"," +
@@ -629,8 +629,8 @@ public final class SatuSehatKirimDiagnosticReportRadiologi extends javax.swing.J
                                         "\"coding\": [" +
                                             "{" +
                                                 "\"code\": \""+tbObat.getValueAt(i,13).toString()+"\"," +
-                                                "\"display\": \""+tbObat.getValueAt(i,15).toString()+"\"" +
-                                                "\"system\": \""+tbObat.getValueAt(i,14).toString()+"\"," +
+                                                "\"display\": \""+tbObat.getValueAt(i,15).toString()+"\"," +
+                                                "\"system\": \""+tbObat.getValueAt(i,14).toString()+"\"" +
                                             "}" +
                                         "]" +
                                     "}," +
@@ -660,7 +660,7 @@ public final class SatuSehatKirimDiagnosticReportRadiologi extends javax.swing.J
                                             "\"reference\": \"ServiceRequest/"+tbObat.getValueAt(i,16).toString()+"\"" +
                                         "}" +
                                     "]," +
-                                    "\"conclusion\": \""+tbObat.getValueAt(i,21).toString()+"\"" +
+                                    "\"conclusion\": \""+tbObat.getValueAt(i,21).toString().replaceAll("(\r\n|\r|\n|\n\r)","<br>").replaceAll("\t", " ")+"\"" +
                                 "}";
                         System.out.println("URL : "+link+"/DiagnosticReport");
                         System.out.println("Request JSON : "+json);
@@ -716,7 +716,7 @@ public final class SatuSehatKirimDiagnosticReportRadiologi extends javax.swing.J
                                         "{" +
                                             "\"system\": \"http://sys-ids.kemkes.go.id/diagnostic/"+koneksiDB.IDSATUSEHAT()+"/rad\"," +
                                             "\"use\": \"official\"," +
-                                            "\"value\": \""+tbObat.getValueAt(i,9).toString()+"\"" +
+                                            "\"value\": \""+tbObat.getValueAt(i,9).toString()+"."+tbObat.getValueAt(i,17).toString()+"\"" +
                                         "}" +
                                     "]," +
                                     "\"status\": \"final\"," +
@@ -735,8 +735,8 @@ public final class SatuSehatKirimDiagnosticReportRadiologi extends javax.swing.J
                                         "\"coding\": [" +
                                             "{" +
                                                 "\"code\": \""+tbObat.getValueAt(i,13).toString()+"\"," +
-                                                "\"display\": \""+tbObat.getValueAt(i,15).toString()+"\"" +
-                                                "\"system\": \""+tbObat.getValueAt(i,14).toString()+"\"," +
+                                                "\"display\": \""+tbObat.getValueAt(i,15).toString()+"\"," +
+                                                "\"system\": \""+tbObat.getValueAt(i,14).toString()+"\"" +
                                             "}" +
                                         "]" +
                                     "}," +
@@ -766,7 +766,7 @@ public final class SatuSehatKirimDiagnosticReportRadiologi extends javax.swing.J
                                             "\"reference\": \"ServiceRequest/"+tbObat.getValueAt(i,16).toString()+"\"" +
                                         "}" +
                                     "]," +
-                                    "\"conclusion\": \""+tbObat.getValueAt(i,21).toString()+"\"" +
+                                    "\"conclusion\": \""+tbObat.getValueAt(i,21).toString().replaceAll("(\r\n|\r|\n|\n\r)","<br>").replaceAll("\t", " ")+"\"" +
                                 "}";
                         System.out.println("URL : "+link+"/DiagnosticReport/"+tbObat.getValueAt(i,20).toString());
                         System.out.println("Request JSON : "+json);

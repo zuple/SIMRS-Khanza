@@ -223,7 +223,17 @@ public final class akses {
             penatalaksanaan_terapi_okupasi=false,satu_sehat_kirim_medicationdispense=false,hasil_usg_neonatus=false,hasil_endoskopi_faring_laring=false,
             satu_sehat_mapping_radiologi=false,satu_sehat_kirim_servicerequest_radiologi=false,hasil_endoskopi_hidung=false,satu_sehat_kirim_specimen_radiologi=false,
             master_masalah_keperawatan_neonatus=false,master_rencana_keperawatan_neonatus=false,penilaian_awal_keperawatan_ranap_neonatus=false,
-            satu_sehat_kirim_observation_radiologi=false,satu_sehat_kirim_diagnosticreport_radiologi=false,hasil_endoskopi_telinga=false;
+            satu_sehat_kirim_observation_radiologi=false,satu_sehat_kirim_diagnosticreport_radiologi=false,hasil_endoskopi_telinga=false,satu_sehat_mapping_lab=false,
+            satu_sehat_kirim_servicerequest_lab=false,satu_sehat_kirim_servicerequest_labmb=false,satu_sehat_kirim_specimen_lab=false,satu_sehat_kirim_specimen_labmb=false,
+            satu_sehat_kirim_observation_lab=false,satu_sehat_kirim_observation_labmb=false,satu_sehat_kirim_diagnosticreport_lab=false,satu_sehat_kirim_diagnosticreport_labmb=false,
+            kepatuhan_kelengkapan_keselamatan_bedah=false,nilai_piutang_perjenis_bayar_per_bulan=false,ringkasan_piutang_jenis_bayar=false,penilaian_pasien_imunitas_rendah=false,
+            balance_cairan=false,catatan_observasi_chbp=false,catatan_observasi_induksi_persalinan=false,skp_kategori_penilaian=false,skp_kriteria_penilaian=false,
+            skp_penilaian=false,referensi_poli_mobilejknfktp=false,referensi_dokter_mobilejknfktp=false,skp_rekapitulasi_penilaian=false,pembayaran_pihak_ke3_bankmandiri=false,
+            metode_pembayaran_bankmandiri=false,bank_tujuan_transfer_bankmandiri=false,kodetransaksi_tujuan_transfer_bankmandiri=false,konsultasi_medik=false,jawaban_konsultasi_medik=false,
+            pcare_cek_alergi=false,pcare_cek_prognosa=false,data_sasaran_usiaproduktif=false,data_sasaran_usialansia=false,skrining_perilaku_merokok_sekolah_remaja=false,
+            skrining_kekerasan_pada_perempuan=false,skrining_obesitas=false,skrining_risiko_kanker_payudara=false,skrining_risiko_kanker_paru=false,skrining_tbc=false,
+            skrining_kesehatan_gigi_mulut_remaja=false,penilaian_awal_keperawatan_ranap_bayi=false,booking_mcu_perusahaan=false,catatan_observasi_restrain_nonfarma=false,
+            catatan_observasi_ventilator=false,catatan_anestesi_sedasi=false;
     
     public static void setData(String user, String pass) {
         try {        
@@ -1265,6 +1275,50 @@ public final class akses {
                         akses.satu_sehat_kirim_observation_radiologi=true;
                         akses.satu_sehat_kirim_diagnosticreport_radiologi=true;
                         akses.hasil_endoskopi_telinga=true;
+                        akses.satu_sehat_mapping_lab=true;
+                        akses.satu_sehat_kirim_servicerequest_lab=true;
+                        akses.satu_sehat_kirim_servicerequest_labmb=true;
+                        akses.satu_sehat_kirim_specimen_lab=true;
+                        akses.satu_sehat_kirim_specimen_labmb=true;
+                        akses.satu_sehat_kirim_observation_lab=true;
+                        akses.satu_sehat_kirim_observation_labmb=true;
+                        akses.satu_sehat_kirim_diagnosticreport_lab=true;
+                        akses.satu_sehat_kirim_diagnosticreport_labmb=true;
+                        akses.kepatuhan_kelengkapan_keselamatan_bedah=true;
+                        akses.nilai_piutang_perjenis_bayar_per_bulan=true;
+                        akses.ringkasan_piutang_jenis_bayar=true;
+                        akses.penilaian_pasien_imunitas_rendah=true;
+                        akses.balance_cairan=true;
+                        akses.catatan_observasi_chbp=true;
+                        akses.catatan_observasi_induksi_persalinan=true;
+                        akses.skp_kategori_penilaian=true;
+                        akses.skp_kriteria_penilaian=true;
+                        akses.skp_penilaian=true;
+                        akses.referensi_poli_mobilejknfktp=true;
+                        akses.referensi_dokter_mobilejknfktp=true;
+                        akses.skp_rekapitulasi_penilaian=true;
+                        akses.pembayaran_pihak_ke3_bankmandiri=true;
+                        akses.metode_pembayaran_bankmandiri=true;
+                        akses.bank_tujuan_transfer_bankmandiri=true;
+                        akses.kodetransaksi_tujuan_transfer_bankmandiri=true;
+                        akses.konsultasi_medik=true;
+                        akses.jawaban_konsultasi_medik=true;
+                        akses.pcare_cek_alergi=true;
+                        akses.pcare_cek_prognosa=true;
+                        akses.data_sasaran_usiaproduktif=true;
+                        akses.data_sasaran_usialansia=true;
+                        akses.skrining_perilaku_merokok_sekolah_remaja=true;
+                        akses.skrining_kekerasan_pada_perempuan=true;
+                        akses.skrining_obesitas=true;
+                        akses.skrining_risiko_kanker_payudara=true;
+                        akses.skrining_risiko_kanker_paru=true;
+                        akses.skrining_tbc=true;
+                        akses.skrining_kesehatan_gigi_mulut_remaja=true;
+                        akses.penilaian_awal_keperawatan_ranap_bayi=true;
+                        akses.booking_mcu_perusahaan=true;
+                        akses.catatan_observasi_restrain_nonfarma=true;
+                        akses.catatan_observasi_ventilator=true;
+                        akses.catatan_anestesi_sedasi=true;
                     }else if(rs2.getRow()>=1){   
                         rs2.beforeFirst();
                         rs2.next();
@@ -2290,6 +2344,50 @@ public final class akses {
                         akses.satu_sehat_kirim_observation_radiologi=rs2.getBoolean("satu_sehat_kirim_observation_radiologi");
                         akses.satu_sehat_kirim_diagnosticreport_radiologi=rs2.getBoolean("satu_sehat_kirim_diagnosticreport_radiologi");
                         akses.hasil_endoskopi_telinga=rs2.getBoolean("hasil_endoskopi_telinga");
+                        akses.satu_sehat_mapping_lab=rs2.getBoolean("satu_sehat_mapping_lab");
+                        akses.satu_sehat_kirim_servicerequest_lab=rs2.getBoolean("satu_sehat_kirim_servicerequest_lab");
+                        akses.satu_sehat_kirim_servicerequest_labmb=rs2.getBoolean("satu_sehat_kirim_servicerequest_labmb");
+                        akses.satu_sehat_kirim_specimen_lab=rs2.getBoolean("satu_sehat_kirim_specimen_lab");
+                        akses.satu_sehat_kirim_specimen_labmb=rs2.getBoolean("satu_sehat_kirim_specimen_labmb");
+                        akses.satu_sehat_kirim_observation_lab=rs2.getBoolean("satu_sehat_kirim_observation_lab");
+                        akses.satu_sehat_kirim_observation_labmb=rs2.getBoolean("satu_sehat_kirim_observation_labmb");
+                        akses.satu_sehat_kirim_diagnosticreport_lab=rs2.getBoolean("satu_sehat_kirim_diagnosticreport_lab");
+                        akses.satu_sehat_kirim_diagnosticreport_labmb=rs2.getBoolean("satu_sehat_kirim_diagnosticreport_labmb");
+                        akses.kepatuhan_kelengkapan_keselamatan_bedah=rs2.getBoolean("kepatuhan_kelengkapan_keselamatan_bedah");
+                        akses.nilai_piutang_perjenis_bayar_per_bulan=rs2.getBoolean("nilai_piutang_perjenis_bayar_per_bulan");
+                        akses.ringkasan_piutang_jenis_bayar=rs2.getBoolean("ringkasan_piutang_jenis_bayar");
+                        akses.penilaian_pasien_imunitas_rendah=rs2.getBoolean("penilaian_pasien_imunitas_rendah");
+                        akses.balance_cairan=rs2.getBoolean("balance_cairan");
+                        akses.catatan_observasi_chbp=rs2.getBoolean("catatan_observasi_chbp");
+                        akses.catatan_observasi_induksi_persalinan=rs2.getBoolean("catatan_observasi_induksi_persalinan");
+                        akses.skp_kategori_penilaian=rs2.getBoolean("skp_kategori_penilaian");
+                        akses.skp_kriteria_penilaian=rs2.getBoolean("skp_kriteria_penilaian");
+                        akses.skp_penilaian=rs2.getBoolean("skp_penilaian");
+                        akses.referensi_poli_mobilejknfktp=rs2.getBoolean("referensi_poli_mobilejknfktp");
+                        akses.referensi_dokter_mobilejknfktp=rs2.getBoolean("referensi_dokter_mobilejknfktp");
+                        akses.skp_rekapitulasi_penilaian=rs2.getBoolean("skp_rekapitulasi_penilaian");
+                        akses.pembayaran_pihak_ke3_bankmandiri=rs2.getBoolean("pembayaran_pihak_ke3_bankmandiri");
+                        akses.metode_pembayaran_bankmandiri=rs2.getBoolean("metode_pembayaran_bankmandiri");
+                        akses.bank_tujuan_transfer_bankmandiri=rs2.getBoolean("bank_tujuan_transfer_bankmandiri");
+                        akses.kodetransaksi_tujuan_transfer_bankmandiri=rs2.getBoolean("kodetransaksi_tujuan_transfer_bankmandiri");
+                        akses.konsultasi_medik=rs2.getBoolean("konsultasi_medik");
+                        akses.jawaban_konsultasi_medik=rs2.getBoolean("jawaban_konsultasi_medik");
+                        akses.pcare_cek_alergi=rs2.getBoolean("pcare_cek_alergi");
+                        akses.pcare_cek_prognosa=rs2.getBoolean("pcare_cek_prognosa");
+                        akses.data_sasaran_usiaproduktif=rs2.getBoolean("data_sasaran_usiaproduktif");
+                        akses.data_sasaran_usialansia=rs2.getBoolean("data_sasaran_usialansia");
+                        akses.skrining_perilaku_merokok_sekolah_remaja=rs2.getBoolean("skrining_perilaku_merokok_sekolah_remaja");
+                        akses.skrining_kekerasan_pada_perempuan=rs2.getBoolean("skrining_kekerasan_pada_perempuan");
+                        akses.skrining_obesitas=rs2.getBoolean("skrining_obesitas");
+                        akses.skrining_risiko_kanker_payudara=rs2.getBoolean("skrining_risiko_kanker_payudara");
+                        akses.skrining_risiko_kanker_paru=rs2.getBoolean("skrining_risiko_kanker_paru");
+                        akses.skrining_tbc=rs2.getBoolean("skrining_tbc");
+                        akses.skrining_kesehatan_gigi_mulut_remaja=rs2.getBoolean("skrining_kesehatan_gigi_mulut_remaja");
+                        akses.penilaian_awal_keperawatan_ranap_bayi=rs2.getBoolean("penilaian_awal_keperawatan_ranap_bayi");
+                        akses.booking_mcu_perusahaan=rs2.getBoolean("booking_mcu_perusahaan");
+                        akses.catatan_observasi_restrain_nonfarma=rs2.getBoolean("catatan_observasi_restrain_nonfarma");
+                        akses.catatan_observasi_ventilator=rs2.getBoolean("catatan_observasi_ventilator");
+                        akses.catatan_anestesi_sedasi=rs2.getBoolean("catatan_anestesi_sedasi");
                     }else if((rs.getRow()==0)&&(rs2.getRow()==0)){
                         akses.kode="";                  
                         akses.penyakit= false;
@@ -3313,6 +3411,50 @@ public final class akses {
                         akses.satu_sehat_kirim_observation_radiologi=false;
                         akses.satu_sehat_kirim_diagnosticreport_radiologi=false;
                         akses.hasil_endoskopi_telinga=false;
+                        akses.satu_sehat_mapping_lab=false;
+                        akses.satu_sehat_kirim_servicerequest_lab=false;
+                        akses.satu_sehat_kirim_servicerequest_labmb=false;
+                        akses.satu_sehat_kirim_specimen_lab=false;
+                        akses.satu_sehat_kirim_specimen_labmb=false;
+                        akses.satu_sehat_kirim_observation_lab=false;
+                        akses.satu_sehat_kirim_observation_labmb=false;
+                        akses.satu_sehat_kirim_diagnosticreport_lab=false;
+                        akses.satu_sehat_kirim_diagnosticreport_labmb=false;
+                        akses.kepatuhan_kelengkapan_keselamatan_bedah=false;
+                        akses.nilai_piutang_perjenis_bayar_per_bulan=false;
+                        akses.ringkasan_piutang_jenis_bayar=false;
+                        akses.penilaian_pasien_imunitas_rendah=false;
+                        akses.balance_cairan=false;
+                        akses.catatan_observasi_chbp=false;
+                        akses.catatan_observasi_induksi_persalinan=false;
+                        akses.skp_kategori_penilaian=false;
+                        akses.skp_kriteria_penilaian=false;
+                        akses.skp_penilaian=false;
+                        akses.referensi_poli_mobilejknfktp=false;
+                        akses.referensi_dokter_mobilejknfktp=false;
+                        akses.skp_rekapitulasi_penilaian=false;
+                        akses.pembayaran_pihak_ke3_bankmandiri=false;
+                        akses.metode_pembayaran_bankmandiri=false;
+                        akses.bank_tujuan_transfer_bankmandiri=false;
+                        akses.kodetransaksi_tujuan_transfer_bankmandiri=false;
+                        akses.konsultasi_medik=false;
+                        akses.jawaban_konsultasi_medik=false;
+                        akses.pcare_cek_alergi=false;
+                        akses.pcare_cek_prognosa=false;
+                        akses.data_sasaran_usiaproduktif=false;
+                        akses.data_sasaran_usialansia=false;
+                        akses.skrining_perilaku_merokok_sekolah_remaja=false;
+                        akses.skrining_kekerasan_pada_perempuan=false;
+                        akses.skrining_obesitas=false;
+                        akses.skrining_risiko_kanker_payudara=false;
+                        akses.skrining_risiko_kanker_paru=false;
+                        akses.skrining_tbc=false;
+                        akses.skrining_kesehatan_gigi_mulut_remaja=false;
+                        akses.penilaian_awal_keperawatan_ranap_bayi=false;
+                        akses.booking_mcu_perusahaan=false;
+                        akses.catatan_observasi_restrain_nonfarma=false;
+                        akses.catatan_observasi_ventilator=false;
+                        akses.catatan_anestesi_sedasi=false;
                     }
                 } catch (Exception e) {
                     System.out.println("Notifikasi : "+e);
@@ -4359,6 +4501,50 @@ public final class akses {
         akses.satu_sehat_kirim_observation_radiologi=false;
         akses.satu_sehat_kirim_diagnosticreport_radiologi=false;
         akses.hasil_endoskopi_telinga=false;
+        akses.satu_sehat_mapping_lab=false;
+        akses.satu_sehat_kirim_servicerequest_lab=false;
+        akses.satu_sehat_kirim_servicerequest_labmb=false;
+        akses.satu_sehat_kirim_specimen_lab=false;
+        akses.satu_sehat_kirim_specimen_labmb=false;
+        akses.satu_sehat_kirim_observation_lab=false;
+        akses.satu_sehat_kirim_observation_labmb=false;
+        akses.satu_sehat_kirim_diagnosticreport_lab=false;
+        akses.satu_sehat_kirim_diagnosticreport_labmb=false;
+        akses.kepatuhan_kelengkapan_keselamatan_bedah=false;
+        akses.nilai_piutang_perjenis_bayar_per_bulan=false;
+        akses.ringkasan_piutang_jenis_bayar=false;
+        akses.penilaian_pasien_imunitas_rendah=false;
+        akses.balance_cairan=false;
+        akses.catatan_observasi_chbp=false;
+        akses.catatan_observasi_induksi_persalinan=false;
+        akses.skp_kategori_penilaian=false;
+        akses.skp_kriteria_penilaian=false;
+        akses.skp_penilaian=false;
+        akses.referensi_poli_mobilejknfktp=false;
+        akses.referensi_dokter_mobilejknfktp=false;
+        akses.skp_rekapitulasi_penilaian=false;
+        akses.pembayaran_pihak_ke3_bankmandiri=false;
+        akses.metode_pembayaran_bankmandiri=false;
+        akses.bank_tujuan_transfer_bankmandiri=false;
+        akses.kodetransaksi_tujuan_transfer_bankmandiri=false;
+        akses.konsultasi_medik=false;
+        akses.jawaban_konsultasi_medik=false;
+        akses.pcare_cek_alergi=false;
+        akses.pcare_cek_prognosa=false;
+        akses.data_sasaran_usiaproduktif=false;
+        akses.data_sasaran_usialansia=false;
+        akses.skrining_perilaku_merokok_sekolah_remaja=false;
+        akses.skrining_kekerasan_pada_perempuan=false;
+        akses.skrining_obesitas=false;
+        akses.skrining_risiko_kanker_payudara=false;
+        akses.skrining_risiko_kanker_paru=false;
+        akses.skrining_tbc=false;
+        akses.skrining_kesehatan_gigi_mulut_remaja=false;
+        akses.penilaian_awal_keperawatan_ranap_bayi=false;
+        akses.booking_mcu_perusahaan=false;
+        akses.catatan_observasi_restrain_nonfarma=false;
+        akses.catatan_observasi_ventilator=false;
+        akses.catatan_anestesi_sedasi=false;
     }
     
     public static int getjml1() {return akses.jml1;}    
@@ -5421,4 +5607,48 @@ public final class akses {
     public static boolean getsatu_sehat_kirim_observation_radiologi(){return akses.satu_sehat_kirim_observation_radiologi;}
     public static boolean getsatu_sehat_kirim_diagnosticreport_radiologi(){return akses.satu_sehat_kirim_diagnosticreport_radiologi;}
     public static boolean gethasil_endoskopi_telinga(){return akses.hasil_endoskopi_telinga;}
+    public static boolean getsatu_sehat_mapping_lab(){return akses.satu_sehat_mapping_lab;}
+    public static boolean getsatu_sehat_kirim_servicerequest_lab(){return akses.satu_sehat_kirim_servicerequest_lab;}
+    public static boolean getsatu_sehat_kirim_servicerequest_labmb(){return akses.satu_sehat_kirim_servicerequest_labmb;}
+    public static boolean getsatu_sehat_kirim_specimen_lab(){return akses.satu_sehat_kirim_specimen_lab;}
+    public static boolean getsatu_sehat_kirim_specimen_labmb(){return akses.satu_sehat_kirim_specimen_labmb;}
+    public static boolean getsatu_sehat_kirim_observation_lab(){return akses.satu_sehat_kirim_observation_lab;}
+    public static boolean getsatu_sehat_kirim_observation_labmb(){return akses.satu_sehat_kirim_observation_labmb;}
+    public static boolean getsatu_sehat_kirim_diagnosticreport_lab(){return akses.satu_sehat_kirim_diagnosticreport_lab;}
+    public static boolean getsatu_sehat_kirim_diagnosticreport_labmb(){return akses.satu_sehat_kirim_diagnosticreport_labmb;}
+    public static boolean getkepatuhan_kelengkapan_keselamatan_bedah(){return akses.kepatuhan_kelengkapan_keselamatan_bedah;}
+    public static boolean getnilai_piutang_perjenis_bayar_per_bulan(){return akses.nilai_piutang_perjenis_bayar_per_bulan;}
+    public static boolean getringkasan_piutang_jenis_bayar(){return akses.ringkasan_piutang_jenis_bayar;}
+    public static boolean getpenilaian_pasien_imunitas_rendah(){return akses.penilaian_pasien_imunitas_rendah;}
+    public static boolean getbalance_cairan(){return akses.balance_cairan;}
+    public static boolean getcatatan_observasi_chbp(){return akses.catatan_observasi_chbp;}
+    public static boolean getcatatan_observasi_induksi_persalinan(){return akses.catatan_observasi_induksi_persalinan;}
+    public static boolean getskp_kategori_penilaian(){return akses.skp_kategori_penilaian;}
+    public static boolean getskp_kriteria_penilaian(){return akses.skp_kriteria_penilaian;}
+    public static boolean getskp_penilaian(){return akses.skp_penilaian;}
+    public static boolean getreferensi_poli_mobilejknfktp(){return akses.referensi_poli_mobilejknfktp;}
+    public static boolean getreferensi_dokter_mobilejknfktp(){return akses.referensi_dokter_mobilejknfktp;}
+    public static boolean getskp_rekapitulasi_penilaian(){return akses.skp_rekapitulasi_penilaian;}
+    public static boolean getpembayaran_pihak_ke3_bankmandiri(){return akses.pembayaran_pihak_ke3_bankmandiri;}
+    public static boolean getmetode_pembayaran_bankmandiri(){return akses.metode_pembayaran_bankmandiri;}
+    public static boolean getbank_tujuan_transfer_bankmandiri(){return akses.bank_tujuan_transfer_bankmandiri;}
+    public static boolean getkodetransaksi_tujuan_transfer_bankmandiri(){return akses.kodetransaksi_tujuan_transfer_bankmandiri;}
+    public static boolean getkonsultasi_medik(){return akses.konsultasi_medik;}
+    public static boolean getjawaban_konsultasi_medik(){return akses.jawaban_konsultasi_medik;}
+    public static boolean getpcare_cek_alergi(){return akses.pcare_cek_alergi;}
+    public static boolean getpcare_cek_prognosa(){return akses.pcare_cek_prognosa;}
+    public static boolean getdata_sasaran_usiaproduktif(){return akses.data_sasaran_usiaproduktif;}
+    public static boolean getdata_sasaran_usialansia(){return akses.data_sasaran_usialansia;}
+    public static boolean getskrining_perilaku_merokok_sekolah_remaja(){return akses.skrining_perilaku_merokok_sekolah_remaja;}
+    public static boolean getskrining_kekerasan_pada_perempuan(){return akses.skrining_kekerasan_pada_perempuan;}
+    public static boolean getskrining_obesitas(){return akses.skrining_obesitas;}
+    public static boolean getskrining_risiko_kanker_payudara(){return akses.skrining_risiko_kanker_payudara;}
+    public static boolean getskrining_risiko_kanker_paru(){return akses.skrining_risiko_kanker_paru;}
+    public static boolean getskrining_tbc(){return akses.skrining_tbc;}
+    public static boolean getskrining_kesehatan_gigi_mulut_remaja(){return akses.skrining_kesehatan_gigi_mulut_remaja;}
+    public static boolean getpenilaian_awal_keperawatan_ranap_bayi(){return akses.penilaian_awal_keperawatan_ranap_bayi;}
+    public static boolean getbooking_mcu_perusahaan(){return akses.booking_mcu_perusahaan;}
+    public static boolean getcatatan_observasi_restrain_nonfarma(){return akses.catatan_observasi_restrain_nonfarma;}
+    public static boolean getcatatan_observasi_ventilator(){return akses.catatan_observasi_ventilator;}
+    public static boolean getcatatan_anestesi_sedasi(){return akses.catatan_anestesi_sedasi;}
 }   

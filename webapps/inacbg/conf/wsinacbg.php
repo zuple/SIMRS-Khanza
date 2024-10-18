@@ -5,17 +5,17 @@
     require_once('../conf/conf.php');
 
     function getKey() {
-       $keyRS = "c8527ecb36aa437c912d926bd25f61abc08037e482e8e45fbce9d50f8f997439";   
+       $keyRS = "67df934b1824f5564e270f9c0d305e87109568016cd70d0b4c72d620fc1bf625";   
        return $keyRS;
     }
 
     function getUrlWS() {
-        $UrlWS = "http://192.168.202.222/E-Klaim/ws.php";
+        $UrlWS = "https://eklaim.rsml.app/E-Klaim/ws.php";
         return $UrlWS;
     }
     
     function getKelasRS() {
-        $kelasRS = "BP";
+        $kelasRS = "BS";
         return $kelasRS;
     }
 
